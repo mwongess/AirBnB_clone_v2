@@ -14,9 +14,6 @@ clone of AirBnB. The front-end is designed using HTML5/CSS3 and is served using
 Python Flask. The application is configured on a distributed system - two web
 servers and one load balancer - with Nginx and HAProxy.
 
-HolbertonBnB is still in active development, with complete functionality set to
-deploy in the coming month:
-
 * Complete integration of a RESTful API
 * Full configuration of website with domain name
 * Serving of dynamic content using JavaScript
@@ -135,9 +132,7 @@ the application (achieved by calls on the `storage` object defined above).
 
 ### Using the Console
 
-The HolbertonBnB console can be run both interactively and non-interactively.
-To run the console in non-interactive mode, pipe any command(s) into an execution
-of the file `console.py` at the command line.
+` at the command line.
 
 ```
 $ echo "help" | ./console.py
@@ -364,9 +359,3 @@ Alternatively, you can specify a single test file to run at a time:
 $ python3 unittest -m tests/test_console.py
 ```
 
-## Authors :black_nib:
-* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)>
-* **Samie Azad** <[sazad44](https://github.com/sazad44)>
-* **Andrew Lindburg** <[atlindburg](https://github.com/atlindburg)>
-* **Kevin Yook** <[yook00627](https://github.com/yook00627)>
-* **Miranda Evans** <miranda.r.evans@gmail.com>
